@@ -1,0 +1,128 @@
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Landing Page</h1>
+            <p>Your journey to amazing experiences starts here.</p>
+            <a href="#cta" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Description of feature 1.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Description of feature 2.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Description of feature 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Join us today and enjoy the benefits.</p>
+            <a href="#" class="cta-button">Sign Up</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lucky Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+CSS CODE:
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    background: #e94e77;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background: #d83a62;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
